@@ -1,0 +1,47 @@
+Tipskerja.css
+.article-container {
+    align-items: center; /* Tengahkan vertikal konten dalam container */
+    width: 56%;
+    margin-left: 350px;
+    border: none; /* Hapus garis tepi jika tidak diperlukan */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: none;
+  }
+  
+  .article-content {
+    display: flex;
+    align-items: center; /* Tengahkan vertikal konten dalam container */
+    width: 101%; /* Menyesuaikan lebar sesuai kebutuhan */
+  }
+  
+  .text-containerkerja, h1, p {
+    margin-bottom: 0; /* Sesuaikan margin bottom sesuai kebutuhan */
+    width: 80%;
+    margin-left: 20px;
+  }
+  
+  .text-containerkerja h1 {
+    font-size: 29px;
+  }
+  
+  .text-containerkerja p {
+    font-size: 14px;
+  }
+  
+  .img-containerkerja {
+    max-width: 196px; /* Menggunakan lebar maksimal container */
+  }
+  
+  /* Menambahkan beberapa gaya untuk membuat tata letak lebih rapi */
+  
+  /* Tambahan gaya untuk memberikan ruang di sekitar gambar */
+  .img-containerkerja img {
+    display: block;
+    width: 100%; /* Menggunakan lebar maksimal container */
+    height: auto; /* Menjaga aspek ratio gambar */
+    margin: 0 auto;
+    border: none; /* Hapus garis tepi jika tidak diperlukan */
+  }
+  
+  /* Add more styles as needed */
+  

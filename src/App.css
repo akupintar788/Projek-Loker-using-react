@@ -1,38 +1,170 @@
-.App {
-  text-align: center;
+/* styles.css */
+
+/* Container untuk responsif */
+.login-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f5f5f5;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.auth-form-container{
   display: flex;
   flex-direction: column;
+  padding: 1rem; /* Mengurangi padding agar lebih responsif */
+  background: rgb(231, 175, 141);
+  position: absolute;
+  left: 50%;
+  top: 0;
+  font-family: 'Iceland';
+  font-size: 16px;
+  height: 100%;
+  width: 100%; /* Lebar form responsif */
+  max-width: 50%; /* Maksimum lebar form */
+}
+
+/* Responsif untuk input */
+input {
+  margin: 0.7rem 0;
+  padding: 1rem;
+  margin-bottom: 25px;
+  border: none;
+  border-radius: 10px;
+  width: 100%; /* Lebar input 100% */
+  height: 50px; /* Atur tinggi sesuai keinginan Anda */
+}
+.link-btn2{
+  margin: 0.5rem 0;
+  border: none;
+  border-radius: 10px;
+  width: 60%; /* Lebar input 100% */
+  height: 40px; /* Atur tinggi sesuai keinginan Anda */
+  background-color: #343439;
+  color: #fff;
+  margin-left: 125px;
+  margin-top: 60px;
+}
+/* Responsif untuk tombol */
+
+.link-btn3 {
+  width: 100%; /* Lebar tombol 100% */
+  max-width: 550px; /* Maksimum lebar tombol */
+  border: none;
+  background-color: transparent;
+  text-decoration: underline; /* Menambahkan garis bawah seperti tautan teks */
+  cursor: pointer; /* Mengganti ikon kursor menjadi tangan ketika diarahkan */
+  color: #050505; /* Ubah warna teks sesuai keinginan Anda */
+  font-weight: normal;
+  margin-left: 50px;
+}
+
+/* Responsif untuk gambar */
+.img1 {
+  width: 50%; /* Lebar gambar 50% dari lebar kontainernya */
+  float: left; /* Menggeser gambar ke kiri */
+  margin-right: 50%;
+}
+
+/* Responsif untuk teks */
+h5 {
+  color: hsla(0, 3%, 18%, 0.9);
+  text-align: left;
+  margin-left: 10px; /* Tambahkan padding sisi kiri */
+  margin-top: 10px; /* Tambahkan margin atas ke teks */
+  margin-bottom: 4px; /* Tambahkan margin bawah ke teks */
+}
+
+/* Media query untuk perangkat seluler */
+@media (max-width: 768px) {
+  .auth-form-container {
+    padding: 0.5rem;
+  }
+  input, .link-btn1, .link-btn2, .link-btn3 {
+    max-width: 100%;
+  }
+  h5 {
+    text-align: left;
+  }
+}
+
+/* styles.css */
+/* Gantilah .register-container menjadi .container-register */
+
+.register-form-container{
+  display: flex;
+  flex-direction: column;
+  padding: 1rem; /* Mengurangi padding agar lebih responsif */
+  background: rgb(231, 175, 141);
+  position: absolute;
+  right: 0;
+  top: 0;
+  font-family: 'Iceland';
+  font-size: 16px;
+  height: 100%;
+  width: 100%; /* Lebar form responsif */
+  max-width: 50%; /* Maksimum lebar form */
+}
+
+/* Gantilah .link-btn6 menjadi .register-button */
+
+/* Gantilah .img2 menjadi .register-image */
+
+.img2 {
+  width: 50%; /* Lebar gambar 50% dari lebar kontainernya */
+  float: right; /* Menggeser gambar ke kiri */
+  margin-right: 50%;
+}
+
+.link-btn5 {
+  margin: 0.5rem 0;
+  border: none;
+  border-radius: 10px;
+  width: 80%; /* Lebar input 100% */
+  height: 40px; /* Atur tinggi sesuai keinginan Anda */
+  background-color: #343439;
+  color: #fff;
+}
+
+.link-btn6 {
+  border: none;
+  background-color: transparent;
+  text-decoration: underline; /* Menambahkan garis bawah seperti tautan teks */ /* Mengganti ikon kursor menjadi tangan ketika diarahkan */
+  color: #050505; /* Ubah warna teks sesuai keinginan Anda */
+  margin-left: right; /* Posisikan tombol di sebelah kanan */
+}
+
+/* Media query untuk perangkat seluler */
+
+@media (max-width: 768px) {
+  .register-form-container {
+    padding: 0.5rem;
+  }
+  input, .register-button {
+    max-width: 100%;
+  }
+  h5 {
+    text-align: left;
+  }
+}
+
+h2,h7 {
+  color: hsla(0, 3%, 18%, 0.9);
+  text-align: left;
+  margin-left: 10px; /* Tambahkan padding sisi kiri */
+  margin-top: 10px; /* Tambahkan margin atas ke teks */
+  margin-bottom: 4px; /* Tambahkan margin bawah ke teks */
+}
+
+.container {
+  display: flex;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  height: 200px;
+  border: 2px solid #050505;
+
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.item {
+  background-color: #050505;
+  padding: 10px;
 }

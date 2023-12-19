@@ -1,0 +1,285 @@
+.loker-container {
+    width: 1074px;
+    margin: 0 auto;
+    padding-bottom: 0;
+    display: flex;
+    flex-flow: row wrap;
+  }
+  
+  .loker-page {
+    margin: 0 auto; /* Menengahkan loker-page */
+    float: left;
+    width: 735px;
+    height: auto;
+    border-right: 1px solid #e5ebf3;
+    padding: 0 19px 56px 0;
+  }
+  
+  
+  .loker-page .img-perusahaan {
+    position: relative;
+    width: 98px;
+    height: 85px;
+    padding-left: 10px;
+    float: right;
+  }
+  
+  .loker-page .img-perusahaan img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .loker-page a {
+    color: #3c6fb3;
+    text-decoration: none;
+  }
+  
+  .loker-page .img-perusahaan .link-perusahaan {
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translate(20%, -20%);
+    width: 19px;
+    height: 19px;
+    background: #304259 no-repeat;
+    background-size: 10.5px auto;
+    background-position: center;
+    border-radius: 5px;
+  }
+  
+  .loker-page h1 .perusahaan {
+    font-size: 28.95px;
+    font-weight: 300;
+    display: block;
+  }
+  
+  .loker-page h1 .lowongan {
+    font-size: 19px;
+    font-weight: 400;
+    font-family: "Open Sans", sans-serif;
+    color: #7a8189;
+    text-transform: lowercase;
+    display: block;
+    margin: 3px 0 -1px;
+  }
+  
+  .clearfix {
+    clear: both;
+  }
+  
+  .loker-page .deskripsi {
+    display: block;
+    border-top: 1px solid #e5ebf3;
+    padding: 1px 0 0px;
+    margin: 10px 0;
+    line-height: 30px;
+  }
+  
+  .loker-page .ringkasan {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-flow: row wrap;
+    line-height: 28px;
+    position: relative;
+  }
+  
+  .loker-page .ringkasan li.pendidikan {
+    padding-left: 29px;
+    background-size: 18px auto;
+    background-position: left 7px;
+  }
+  
+  .loker-page .ringkasan li:nth-child(2n+1) {
+    color: #767c83;
+    width: 30%;
+    clear: both;
+  }
+  
+  .loker-page .ringkasan li:nth-child(2n+1) span {
+    float: right;
+  }
+  
+  .loker-page .ringkasan li.gender,
+  .loker-page .ringkasan li.umur,
+  .loker-page .ringkasan li.status,
+  .loker-page .ringkasan li.gaji,
+  .loker-page .ringkasan li.lokasi {
+    padding-left: 28px;
+    background-size: 17px auto;
+    background-position: left 7px;
+  }
+  
+  .loker-detail {
+    width: 100%;
+    height: auto;
+    display: block;
+    line-height: 30px;
+  }
+  
+  .loker-page .ringkasan li.email {
+    padding-left: 28px;
+    background-size: 17px auto;
+    background-position: left 5.5px;
+  }
+  
+  .loker-page ul.kontak li .copy {
+    width: 19.5px;
+    height: 19.5px;
+    background-size: contain;
+    display: inline-block;
+    position: relative;
+    top: 3px;
+    left: 8px;
+    cursor: pointer;
+  }
+  
+  .loker-page ul.kontak li:nth-last-child(1),
+  .loker-page ul.kontak li:nth-last-child(2) {
+    margin-bottom: 1px;
+  }
+  
+  .loker-page .loker-tool {
+    width: 100%;
+    height: auto;
+    padding: 20px 0;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .loker-page .loker-tool .tombol {
+    width: 55%;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: flex-start;
+    font-family: "Bubbleboddy Neue Trial";
+    font-weight: 300;
+    font-size: 20.11px;
+    color: #304259;
+  }
+  
+  .loker-page .loker-tool .tombol .tombol-lamar {
+    position: relative;
+    width: auto;
+    background: #304259;
+    background-size: 18px auto;
+    background-position: 14px 9px;
+    padding: 6px 14px 6px 38.5px;
+    margin-right: 19px;
+    border-radius: 8px;
+    cursor: pointer;
+    color: #fff;
+  }
+  
+  .loker-page .loker-tool .tombol .tombol-lamar .lamar-box {
+    position: absolute;
+    top: -40px;
+    left: 0;
+    height: auto;
+    padding: 7px 8px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 0px 5px 1px rgba(38, 54, 74, 0.15);
+    display: flex;
+    justify-content: space-around;
+    transition: all ease 0.2s;
+    opacity: 0;
+    z-index: -1;
+    color: #304259;
+    cursor: auto;
+  }
+  
+  .loker-page .loker-tool .blur {
+    width: auto;
+    height: auto;
+    opacity: 0.6;
+  }
+  
+  .loker-page .loker-tool .tombol .tombol-lamar .lamar-box .formulir-web,
+  .loker-page .loker-tool .tombol .tombol-lamar .lamar-box .email,
+  .loker-page .loker-tool .tombol .tombol-lamar .lamar-box .whatsapp {
+    font-size: 18.18px;
+    font-weight: 300;
+    background-size: 13px auto;
+    background-position: 7px 4.3px;
+    padding: 2px 7px 2px 25px;
+    border: 1px solid #9aa6b5;
+    border-radius: 5px;
+    margin-right: 7px;
+    white-space: nowrap;
+  }
+  
+  .loker-page .loker-tool .tombol .tombol-lamar .lamar-box .email {
+    background-size: 17px auto;
+    background-position: 7px 4px;
+    padding: 2px 7px 2px 31px;
+  }
+  
+  .loker-page .loker-tool .tombol .tombol-lamar .lamar-box .whatsapp {
+    background-size: 15px auto;
+    background-position: 7px 5px;
+    margin-right: 
+    0px;
+}
+
+.loker-page .loker-tool .tombol .simplefavorite-button {
+  width: auto;
+  background-size: 15px auto;
+  background-position: 14px 9px;
+  padding: 5px 13px 5px 35px;
+  box-shadow: 0px 1px 0px 2px rgba(199, 203, 208, 1);
+  border-radius: 8px;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.loker-page .loker-tool .tombol .tombol-share {
+  position: relative;
+  width: auto;
+  background-size: 15px auto;
+  background-position: 14px 9px;
+  padding: 5px 13px 5px 35px;
+  box-shadow: 0px 1px 0px 2px rgba(199, 203, 208, 1);
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.loker-page .loker-tool .tombol .tombol-share .share-box {
+  position: absolute;
+  top: -40px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 200px;
+  height: auto;
+  padding: 7px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0px 0px 5px 1px rgba(38, 54, 74, 0.15);
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  transition: all ease 0.2s;
+  opacity: 0;
+  z-index: -1;
+}
+
+.loker-page .loker-tool .tombol .tombol-share .share-box a .facebook {
+  width: 38px;
+  height: 38px;
+  /* background: url(/wp-content/themes/lokerbandungv1/img/facebook-share.png); */
+}
+
+.loker-page .loker-tool .tombol .tombol-share .share-box a .whatsapp {
+  width: 38px;
+  height: 38px;
+  /* background: url(/wp-content/themes/lokerbandungv1/img/whatsapp-share.png); */
+}
+
+.loker-page .info-tambahan {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-end;
+}
+  

@@ -1,0 +1,72 @@
+/* Global Styles */
+.inner {
+  padding: 12px 16px 40px !important;
+}
+
+.artikel {
+  width: 758px;
+  height: auto;
+  padding: 21px;
+  border-radius: 20px;
+  background: #fff;
+  position: relative;
+  box-sizing: border-box;
+  z-index: 1;
+  margin: 0 auto 30px;
+}
+
+.konten-artikel .link-artikel {
+  text-decoration: none;
+  border-bottom: solid 1px #e5ebf3;
+  display: block;
+  margin-bottom: 16px;
+  overflow: hidden;
+}
+
+.konten-artikel .konten-list:last-child {
+  border-bottom: none;
+}
+
+/* Article List Styles */
+.konten-artikel .konten-list {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-flow: row wrap;
+  padding-bottom: 16px;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.konten-list .konten-left {
+  width: 227px;
+  height: 137px;
+  margin-right: 16px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.konten-list .konten-right {
+  width: calc(100% - 243px);
+  height: auto;
+  box-sizing: border-box;
+}
+
+.konten-list .konten-right h1 {
+  font-family: "Bubbleboddy Neue Trial";
+  font-weight: 300;
+  font-size: 32.4px;
+  line-height: 42.4px;
+  color: #304259;
+  margin-top: -6px;
+  padding: 0;
+}
+
+.a img {
+  max-width: 210px;
+  height: auto;
+}
+
+.konten-right p {
+  font-size: 16.8px;
+}

@@ -1,0 +1,128 @@
+.konten-body {
+  padding: 12px 16px 40px !important;
+}
+
+.konten-artikelll {
+  width: 758px;
+  height: auto;
+  padding: 21px;
+  border-radius: 20px;
+  background: #fff;
+  position: relative;
+  box-sizing: border-box;
+  z-index: 1;
+  margin: -123px auto 30px;
+}
+
+.konten-inner .search-text {
+  width: 100%;
+  border: none;
+  border-bottom: 2px solid #cad4df !important;
+  font-size: 23.12px;
+  font-family: "Bubbleboddy Neue Trial";
+  font-weight: 400;
+  color: #304259;
+  padding: 0 0 2px 10px;
+  margin-bottom: 17px;
+  outline: none;
+  box-sizing: border-box;
+}
+
+.konten-artikelll .search-single {
+  margin-bottom: 12px !important;
+}
+.konten-artikelll h1 {
+  font-size: 43.6px !important;
+  line-height: 53.6px;
+  font-weight: 300;
+  padding: 0 8px 0px;
+  border-bottom: none;
+}
+.konten-artikelll h1 {
+  font-size: 43.6px !important;
+  line-height: 53.6px;
+  font-weight: 300;
+  padding: 0 8px 0px;
+  border-bottom: none;
+}
+.konten-artikelll h2 {
+  padding: 0 8px;
+  font-size: 25px;
+  line-height: 35px;
+}
+
+.konten-artikelll p {
+  font-size: 18.8px;
+  line-height: 31px;
+  padding: 0 8px;
+}
+
+.konten-artikelll ol {
+  padding-left: 28px;
+}
+
+ol {
+  box-sizing: border-box;
+}
+.konten-artikelll ol li {
+  padding: 0 0 5px 5px;
+  line-height: 31px;
+}
+.konten-artikelll p {
+  font-size: 18.8px;
+  line-height: 31px;
+  padding: 0 8px;
+}
+p {
+  margin: 10px 0;
+}
+.konten-artikelll .image {
+  width: 100%;
+  height: auto;
+  padding-bottom: 2px;
+}
+
+.konten-header {
+  height: 183px !important;
+  margin-bottom: 0px !important;
+}
+
+.search1 {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  height: auto;
+  background-position: center;
+  background-size: contain;
+  margin-bottom: 85px;
+}
+.search2 {
+  width: 1074px;
+  margin: 0 auto;
+  position: relative;
+}
+
+
+element.style {
+}
+.breadcrumbs-tax {
+    position: absolute !important;
+    top: 18px !important;
+    right: 0 !important;
+    padding: 0px !important;
+}
+
+.breadcrumbs {
+    font-size: 14.93px;
+    color: #71767b;
+    height: 20px;
+    overflow: hidden;
+}
+
+.breadcrumbs a {
+  color: #708195;
+  text-decoration: none;
+}
+meta {
+  display: none;
+}
